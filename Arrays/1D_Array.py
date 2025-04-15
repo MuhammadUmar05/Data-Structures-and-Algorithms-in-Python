@@ -20,3 +20,9 @@ for i in range(1, len(arr)):
 
 print(arr)
 print(f"Minimum number in an array is {minNum}")
+
+sum = 0
+for i in range(len(arr)):
+    sum += arr[i]
+
+print(f"The sum of array {arr} is: {sum}")
