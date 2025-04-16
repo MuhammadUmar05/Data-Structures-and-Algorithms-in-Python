@@ -25,5 +25,5 @@ def linearSearch(matrix, target, rows, cols):
                 return (i, j)
     return (-1, -1)
 
-
-print("Key found at index:", linearSearch(matrix1, 10, 3, 3))
+target = int(input("Enter a target: "))
+print("Key found at index:", linearSearch(matrix1, target, rows, cols))
